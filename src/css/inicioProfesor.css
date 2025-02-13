@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9fbff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+header .back-arrow {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.profile-card {
+    grid-column: span 2;
+    background-color: #eef4ff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.profile-card .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.students-section,
+.activities-section,
+.teams-section {
+    background-color: #eef4ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.students-list,
+.activities-list,
+.teams-list {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.students-list li,
+.activities-list li,
+.teams-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+button {
+    background-color: #4d90fe;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button.delete-btn {
+    background-color: #ff5e57;
+}
+
+button.create-team-btn,
+button.view-activities-btn {
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.create-activity-section {
+    background-color: #ffe7cf;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.create-activity-btn {
+    background-color: #ffb74d;
+    color: white;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}

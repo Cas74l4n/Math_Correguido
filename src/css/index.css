@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Asegura que el main ocupe el espacio restante */
+main {
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 120px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.btn-team {
+    padding: 0.5rem 1rem;
+    background-color: #FFB347;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-teacher {
+    padding: 0.5rem 1rem;
+    background-color: #1E90FF;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    background: url('http://localhost/mathive/imagenes/fondo.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 2rem;
+    clip-path: ellipse(150% 90% at 50% 10%);
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.description {
+    text-align: center;
+    margin: 3rem 2rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Footer siempre al fondo */
+.footer {
+    background-image: url('http://localhost/mathive/imagenes/footer.svg');
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 2.5rem 0;
+    font-size: 0.9rem;
+}
