@@ -18,6 +18,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+    margin: auto;
+    width: 1024px;
 }
 
 header .logo {
@@ -98,7 +100,7 @@ main {
 
 /* Footer siempre al fondo */
 .footer {
-    background-image: url('http://localhost/mathive/imagenes/footer.svg');
+    background-image: url('http://localhost/Math_Corregido/public/imagenes/footer.svg');
     background-color: #f1f1f1;
     text-align: center;
     padding: 2.5rem 0;

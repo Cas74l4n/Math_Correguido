@@ -21,6 +21,8 @@ main {
     padding: 1rem 2rem;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 1024px;
+    margin: auto;
 }
 
 .container {
@@ -33,9 +35,9 @@ main {
 /* Botón de regreso */
 .back-button {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 65px;
     color: #007bff;
-    margin-bottom: 20px;
+    margin-bottom: 7px;
     display: inline-block;
 }
 
@@ -70,6 +72,7 @@ textArea{
 .welcome-card {
     background-color: #eaf4ff;
 }
+
 .welcome-card>p {
     margin: auto;
     width: 85%;
@@ -131,6 +134,7 @@ h2 {
     font-size: 16px;
     color: #666;
     text-align: center;
+    padding-bottom: 25px;
 }
 
 .description {
@@ -176,7 +180,7 @@ h2 {
 
 /* Footer siempre al fondo */
 .footer {
-    background-image: url('http://localhost/mathive/imagenes/footer.svg');
+    background-image: url('http://localhost/Math_Corregido/public/imagenes/footer.svg');
     background-color: #f1f1f1;
     text-align: center;
     padding: 2.5rem 0;

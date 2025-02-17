@@ -18,8 +18,8 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    width: 1024px;
 }
 
 .logo img {
@@ -52,7 +52,7 @@ main {
 }
 
 .hero {
-    background: url('http://localhost/mathive/imagenes/fondo.jpg') no-repeat center center/cover;
+    background: url('http://localhost/Math_Corregido/public/imagenes/fondo.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 5rem 2rem;
@@ -77,7 +77,7 @@ main {
 
 /* Footer siempre al fondo */
 .footer {
-    background-image: url('http://localhost/mathive/imagenes/footer.svg');
+    background-image: url('http://localhost/Math_Corregido/public/imagenes/footer.svg');
     background-color: #f1f1f1;
     text-align: center;
     padding: 2.5rem 0;
